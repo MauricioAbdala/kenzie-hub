@@ -1,0 +1,38 @@
+.inputBox {
+    .inputGrid {
+        position: relative;
+    }
+
+    Input {
+        margin-top: 0.6rem;
+        width: 100%;
+        font-family: var(--font-family);
+        font-size: 0.7614rem;
+        font-weight: 400;
+        color: var(--color-gray-0);
+        background: var(--color-gray-2);
+        padding: 0 20px;
+        height: 3rem;
+        margin-bottom: 0.75rem;
+        border-radius: 0.25rem;
+
+        &:disabled {
+            opacity: .5;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 1.40rem;
+        right: 10px;
+        font-size: 1.5rem;
+    }
+
+}
+
+.error {
+    font-family: var(--font-family);
+    font-size: 0.7614rem;
+    font-weight: 400;
+    color: rgb(153, 40, 40);
+}

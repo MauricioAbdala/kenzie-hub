@@ -1,0 +1,35 @@
+.label {
+   font-family: var(--font-family);
+   font-size: 0.7614rem;
+   font-weight: 400;
+
+   &.white {
+      color: var(--color-gray-0);
+
+   }
+
+   &.gray {
+      color: var(--color-gray-1);
+   }
+
+   &.center {
+      text-align: center;
+      margin-bottom: 15px;
+   }
+}
+
+.title {
+   font-family: var(--font-family);
+   font-size: 18px;
+   font-weight: 700;
+   line-break: 1.75rem;
+   color: var(--color-gray-0);
+}
+
+.title2 {
+   font-family: var(--font-family);
+   font-size: 16px;
+   font-weight: 400;
+   line-break: 1.75rem;
+   color: var(--color-gray-0);
+}

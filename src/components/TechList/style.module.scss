@@ -1,0 +1,17 @@
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span {
+    margin-top: -4px;
+}
+
+.container {
+    width: 100%;
+    background: var(--color-gray-3);
+    padding: 10px 20px;
+    margin-top: 21px;
+    border-radius: 4px;
+}

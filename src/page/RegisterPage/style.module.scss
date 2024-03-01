@@ -1,0 +1,20 @@
+.main {
+  background: var(--color-gray-4);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 1100px;
+  width: 100%;
+  margin: auto;
+  border-radius: 4px;
+  padding: 4.8331rem 0px 5.3125rem 0px;
+}
+
+.headerbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+  margin-top: -30px;
+}

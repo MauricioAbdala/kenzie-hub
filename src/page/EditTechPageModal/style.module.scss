@@ -1,0 +1,77 @@
+.modal-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background: var(--color-gray-2);
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+::placeholder {
+    color: var(--color-gray-0);
+}
+
+.iconX {
+    color: var(--color-gray-1);
+    margin-top: 5px;
+}
+
+.selectBox {
+    display: flex;
+    align-items: center;
+    margin-top: 9.6px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 0.7614rem;
+    font-weight: 400;
+    color: var(--color-gray-3);
+    background: var(--color-gray-2);
+    padding: 0 20px;
+    height: 3rem;
+    border-radius: 4px;
+
+    select {
+        width: 100%;
+    }
+}
+
+option {
+    background: var(--color-gray-1);
+}
+
+.containerBox {
+    width: 100%;
+    margin: 0 auto;
+    height: 0px;
+    max-width: 370px;
+    background: var(--color-gray-1);
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+
+    &sm {
+        max-width: 370px;
+        background: var(--color-gray-3);
+        margin-top: 40px;
+        border-radius: 4px;
+    }
+}

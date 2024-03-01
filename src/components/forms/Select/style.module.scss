@@ -1,0 +1,26 @@
+.selectBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 0.7614rem;
+    font-weight: 400;
+    color: var(--color-gray-3);
+    background: var(--color-gray-2);
+    padding: 0 20px;
+    height: 3rem;
+    border-radius: 4px;
+
+    select {
+        width: 100%;
+    }
+}
+
+.error {
+    font-family: var(--font-family);
+    font-size: 0.7614rem;
+    font-weight: 400;
+    color: rgb(153, 40, 40);
+    margin-top: 0.6rem;
+}
